@@ -1,0 +1,21 @@
+{
+  "name": "aadiff",
+  "version": "0.0.0",
+  "description": "Async diff tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js file1 file2 [md|json|html] > outpur",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Idan Levin",
+  "license": "MIT",
+  "dependencies": {
+    "@ads-vdh/md-diff": "^1.0.3",
+    "@asyncapi/generator": "^1.5.0",
+    "@asyncapi/parser": "^1.4.0",
+    "js-yaml": "^4.0.0",
+    "marked": "^2.0.1",
+    "remark": "^13.0.0",
+    "remark-toc": "^7.2.0"
+  }
+}
